@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>test</title>
+	<link rel= "stylesheet" type= "text/css" href= '{{ url_for("static", filename="style.css") }}'>
+
+
+</head>
+
+<body style="text-align: center">
+
+	<h1>Iris Prediction </h1>
+	<form class="forms" method="POST" action="/predict">
+
+		<label for="SepalLength" class="formGroup">Sepal Length:</label>
+		<input name="SepalLength" type="text" placeholder="Enter the Sepal Length">
+
+		<label for="SepalWidth" class="formGroup">Sepal Width</label>
+		<input name="SepalWidth" type="text" placeholder="Enter the Sepal Width">
+
+		<label for="PetalLength" class="formGroup">Petal Length</label>
+		<input name="PetalLength" type="text" placeholder="Enter the Petal Length">
+
+		<label for="PetalWidth" class="formGroup">Petal Width</label>
+		<input name="PetalWidth" type="text" placeholder="Enter the Petal Width">
+
+		<br>
+		<hr>
+		<input type="submit" name="submit" id="submit" value="Submit">
+	</form>
+</body>
+
+</html>
