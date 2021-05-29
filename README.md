@@ -2,7 +2,7 @@
 
 A basic ML Webpage Integration to predict the Iris Classes. To directly try it out, visit
 
-https://iris-flask-ml-deployement.herokuapp.com/
+https://iris-tf-predict.herokuapp.com/
 
 <i><h3>Repo Information:</h3></i>
 
